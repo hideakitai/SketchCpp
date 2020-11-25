@@ -17,4 +17,7 @@ name = "static_local_variable_static_mut"
 [[example]]
 name = "static_local_variable_atomic"
 
+# async await
+[[example]]
+name = "async_await_futures"
 
