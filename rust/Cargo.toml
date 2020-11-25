@@ -1,0 +1,20 @@
+[package]
+name = "rust"
+version = "0.1.0"
+authors = ["Hideaki Tai <hideaki.tai@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dev-dependencies]
+futures = { version = "0.3", features = ["executor", "thread-pool"] }
+
+# global and static variables
+[[example]]
+name = "static_local_variable_thread_local"
+[[example]]
+name = "static_local_variable_static_mut"
+[[example]]
+name = "static_local_variable_atomic"
+
+
